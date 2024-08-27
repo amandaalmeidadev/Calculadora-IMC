@@ -1,0 +1,87 @@
+/* Centralizando o main na tela */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8bbd0; /* Cor de fundo do body (rosa claro) */
+    margin: 0;
+}
+
+/* Estilo do container central da calculadora */
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #f48fb1; /* Fundo do container (rosa mais forte) */
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Centralizando o título */
+.title {
+    font: bold 2rem serif;
+    margin-bottom: 20px;
+    color: #ffffff; /* Cor do texto do título */
+}
+
+/* Estilo dos inputs e labels */
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-align: left; /* Alinhando o texto à esquerda */
+}
+
+.input label {
+    font: bold 1.2rem serif;
+    margin-bottom: 5px;
+    color: #ffffff; /* Cor do texto das labels */
+}
+
+.input input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font: bold 1rem serif;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilizando o botão */
+button {
+    width: 100%;
+    height: 40px;
+    font: bold 1.2rem serif;
+    background: #e91e63; /* Fundo do botão (rosa escuro) */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Espaçamento acima do botão */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #c2185b; /* Fundo do botão ao passar o mouse */
+}
+
+/* Estilo da caixa de resultado */
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font: italic 1.2rem serif;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: #f06292; /* Fundo da caixa de resultado (rosa) */
+    color: #ffffff; /* Cor do texto da caixa de resultado */
+    min-height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
